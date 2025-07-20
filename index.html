@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon's Realm - Ancient Legends Await</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Dragon's Realm</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#dragons" class="nav-link">Dragons</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#legends" class="nav-link">Legends</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Enter the Dragon's Realm</h1>
+            <p class="hero-subtitle">Where ancient legends come alive and mythical creatures rule the skies</p>
+            <button class="cta-button">Begin Your Journey</button>
+        </div>
+        <div class="dragon-silhouette"></div>
+    </header>
+
+    <section id="dragons" class="dragons-section">
+        <div class="container">
+            <h2 class="section-title">Legendary Dragons</h2>
+            <div class="dragons-grid">
+                <div class="dragon-card">
+                    <div class="dragon-image fire-dragon"></div>
+                    <div class="dragon-info">
+                        <h3>Pyraxis the Fire Lord</h3>
+                        <p>Ancient guardian of the volcanic peaks, breathing flames that can melt stone and commanding respect from all who dare approach.</p>
+                        <div class="dragon-stats">
+                            <span class="stat">Element: Fire</span>
+                            <span class="stat">Age: 2,000 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dragon-card">
+                    <div class="dragon-image ice-dragon"></div>
+                    <div class="dragon-info">
+                        <h3>Glacius the Frost Warden</h3>
+                        <p>Ruler of the frozen wastelands, with breath that can freeze entire lakes and scales that shimmer like diamonds.</p>
+                        <div class="dragon-stats">
+                            <span class="stat">Element: Ice</span>
+                            <span class="stat">Age: 1,500 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dragon-card">
+                    <div class="dragon-image shadow-dragon"></div>
+                    <div class="dragon-info">
+                        <h3>Umbra the Shadow Keeper</h3>
+                        <p>Master of darkness and stealth, moving unseen through the night and wielding powers beyond mortal comprehension.</p>
+                        <div class="dragon-stats">
+                            <span class="stat">Element: Shadow</span>
+                            <span class="stat">Age: 3,000 years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="legends" class="legends-section">
+        <div class="container">
+            <h2 class="section-title">Ancient Legends</h2>
+            <div class="legends-content">
+                <div class="legend-item">
+                    <h3>The Great Dragon War</h3>
+                    <p>A tale of five dragons who once ruled separate kingdoms, until a prophecy united them against an ancient evil that threatened to consume the world.</p>
+                </div>
+                <div class="legend-item">
+                    <h3>The Dragon's Heart Crystal</h3>
+                    <p>Legend speaks of a mystical crystal formed from the heart of the first dragon, granting immense power to those worthy enough to claim it.</p>
+                </div>
+                <div class="legend-item">
+                    <h3>The Last Dragonrider</h3>
+                    <p>The story of a brave warrior who formed an unbreakable bond with the last dragon, together protecting the realm from darkness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Join the Dragon's Council</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Share your dragon tale..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dragon's Realm. All legends preserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
